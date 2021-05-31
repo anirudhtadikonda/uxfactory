@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+    background-image: url("../images/download.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100% 100%;
+}
+h1{
+    color: blue;
+    background-color: red;
+    border: red;
+  border: 2px dashed;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+h2 {
+    opacity: 0.9;
+    border: 2px solid red;
+    border-style: double;
+
+}
+p{
+    color: chartreuse;
+}

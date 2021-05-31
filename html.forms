@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html forms</title>
+    </head>
+    <body>
+        <form name="login" action=" " method="POST">
+            <label for="fname" >Firstname:</label><br>
+            <input type="text" id="fname" name="firstname"><br>
+            <label for="lname" >last name:</label><br>
+            <input type="text" id="lname" name="lastname"><br>
+            <label for="password">password:</label><br>
+            <input type="password" id="password" name="pwd"><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">others</label><br><br>
+            <input type="checkbox" id="language1" name="lang1" value="English">
+            <label for="language1">English</label><br>
+            <input type="checkbox" id="language2" name="lang2" value="Telugu">
+            <label for="language2">telugu</label><br>
+            <input type="checkbox" id="language3" name="lang3" value="Hindi">
+            <label for="language3">Hindi</label><br><br>
+            <label for="resume">select resume file</label><br>
+            <input type="file" id="resume" name="resume"><br>
+            <label for="photo">select photo</label><br>
+            <input type="file" id="photo" name="photo"><br><br>
+            <label for="birthday">Birth Date:</label>
+            <input type="date" id="birthday" name="birth date"><br><br>
+            <label for="fav color">choose color:</label>
+            <input type="color" id="fav color" name="colors"><br><br>
+            <input type="reset">
+            <input type="submit" value="Login"><br><br><br><br>
+
+            <label for="mobiles" >select mobiles:</label>
+            <select id="mobiles" name="mobiles" size="2" multiple>
+                <option value="apple">Apple</option>
+                <option value selected="realme">realme</option>
+                <option value="nokia">nokia</option>
+                <option value="redmi">Redmi</option>
+            </select><br><br><br>
+
+            <label for="mobiledescription"></label>
+            <textarea id="mobiledescription" name="mobiles about" rows="50" cols="40" style="height:240px;width:250px;">this is about mobile teat area
+            </textarea>
+            <br><br><br>
+
+            <input type="button" value="clickme">
+            <br><br><br>
+<fieldset>
+    <legend>student info-</legend>
+            <label for="fn">Firstname:</label>
+            <input type="text" id="fn" name="fname">
+            <label for="sn">second name:</label>
+            <input type="text" id="sn" name="sname">
+</fieldset>
+<br><br><br>
+
+<label for="mobile brands">Mobile brands:</label>
+<input list="mobile list">
+<datalist id="mobile list">
+    <option value="apple">
+    <option value="redmi">
+    <option value="realme">
+
+</datalist>
+
+
+
+
+
+
+        </form>
+    </body>
+</html>
