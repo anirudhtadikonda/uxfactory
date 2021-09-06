@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>java script introduction.</title>
+    <script>
+        var x = 20;
+        var y = 20;
+        function add() {
+            var z = x + y;
+            document.getElementById("demo1").innerHTML = "the sum of x and y is" + z;
+        }
+        function multiply() {
+            var z = x * y;
+            document.getElementById("demo2").innerHTML = "the multiply of x and y is" + z;
+        }
+        function subtract() {
+            var z = x - y;
+            document.getElementById("demo3").innerHTML = "the subtrct of x and y is" + z;
+
+
+        }
+    </script>
+</head>
+<div id="demo1"></div>
+<div id="demo2"></div>
+<div id="demo3"></div>
+
+<body>
+
+    <input type="button" onclick="add()" value="add" />
+    <input type="button" onclick="multiply()" value="multiply" />
+    <input type="button" onclick="subtract()" value="subtract" />
+</body>
+
+</html>

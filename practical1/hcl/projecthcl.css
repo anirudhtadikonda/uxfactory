@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    width: 1200px;
+}
+p{
+    margin-top: 100px;
+}
+.text1 {
+    background-color: yellow;
+    width: 400px;
+    height: 300px;
+}
+.text2 {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+}
+.text3 {
+    background-color: blue;
+    width: 400px;
+    height: 300px
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>js date.</title>
+    <script>
+        //var d= new Date();
+        // document.write(d);
+        // var date1 = new Date(2021,12,31,23,59);
+        //document.write(date1);
+         var d = new Date();
+          document.write(d.getFullyear());
+         document.write(d.getMonth());
+         document.write(d.getHours());
+
+       // d.setfullyear(2022);
+       // document.write(d);
+    </script>
+</head>
+
+<body>
+    <div id="getdatetime"></div>
+    <!-- <div id="setdatetime"></div> -->
+    <script>
+        document.getElementById('datetime').innerHTML = d.getFullyear() + "  " + d.getMonth();
+    </script>
+</body>
+
+</html>

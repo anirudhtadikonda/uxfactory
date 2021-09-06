@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+}
+p{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+
+}
+table{
+    width: 100%;
+    text-align: center;
+    border: solid 2px black;
+}
+th{
+    background-color: lightgray;
+    height: 40px;
+}
+td{
+    height: 100px;
+}
+
+.fas{
+     color: black;
+
+}
